@@ -2,9 +2,9 @@ import duckdb
 import polars as pl
 import streamlit as st
 import plotly.express as px
+from make_db import create_db
 
-conn = duckdb.connect('albotherm.duckdb')
-
+conn = create_db()
 
 TABLES = {'Vitacress 1': 'vitacress_1', 
           'Vitacress 2': 'vitacress_2', 
