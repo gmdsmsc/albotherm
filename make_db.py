@@ -1,5 +1,4 @@
 import duckdb
-import polars as pl
 from load_data import load_vitacress_1, load_vitacress_2, load_flavourfresh_1, load_flavourfresh_2
 
 ''' Loads the trials dataframes into the database. '''
