@@ -1,2 +1,2 @@
 [server]
-preRun = ["./install.sh"]
+command = "sh install.sh"
