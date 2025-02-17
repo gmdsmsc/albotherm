@@ -1,2 +1,2 @@
-[server]
-command = "sh install.sh"
+[scripts]
+shell_script = "install.sh"
