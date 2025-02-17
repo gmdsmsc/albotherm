@@ -5,7 +5,7 @@ from make_db import create_db
 
 import subprocess
 
-subprocess.run(["ls", "-l"]) 
+result = subprocess.run(['install.sh'], capture_output=True, text=True)
 
 conn = create_db()
 
