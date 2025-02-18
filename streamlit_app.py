@@ -3,10 +3,6 @@ import streamlit as st
 import plotly.express as px
 from make_db import create_db
 
-import subprocess
-
-result = subprocess.run(['./install.sh'])
-
 conn = create_db()
 
 TABLES = {'Vitacress 1': 'vitacress_1', 
